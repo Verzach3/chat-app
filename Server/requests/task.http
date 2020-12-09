@@ -1,0 +1,33 @@
+###
+GET http://localhost:3000/api/tasks
+
+###
+POST  http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "user": "Verzach3",
+    "message": "Primer Mensaje",
+    "number": 1
+}
+
+
+###
+GET http://localhost:3000/api/tasks/5fd087e8b000bf04285330fa
+
+###
+DELETE  http://localhost:3000/api/tasks/5fd13cbb6032a28c16348269
+
+###
+GET  http://localhost:3000/api/tasks/5fd087e8b000bf04285330fa
+
+###
+PUT http://localhost:3000/api/tasks/5fd0910eadd62e1614180de9
+Content-Type: application/json
+
+{
+    "user": "Cambiado x34264783"
+
+}
+
+
